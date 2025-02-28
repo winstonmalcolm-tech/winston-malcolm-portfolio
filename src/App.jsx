@@ -7,6 +7,7 @@ import About from "./components/sections/About";
 import Projects from "./components/sections/Projects"; 
 import Contact from "./components/sections/Contact";
 
+
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
