@@ -8,6 +8,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>
       <Routes>
+        <Route path="/" element={<Navigate to={"/winston-malcolm-portfolio"} replace/>} />
         <Route path='/winston-malcolm-portfolio' element={<App />} />
         <Route path="*" element={<Navigate to={"/winston-malcolm-portfolio"} replace/>} />
       </Routes>
