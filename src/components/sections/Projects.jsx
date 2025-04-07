@@ -30,6 +30,10 @@ const Projects = () => {
                             <a href="https://github.com/winstonmalcolm-tech/appja-web-client" className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                             View Project →
                             </a>
+
+                            <a href="https://appja.netlify.app/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                            Live →
+                            </a>
                         </div>
                     </div>
 
