@@ -1,4 +1,3 @@
-import React from 'react'
 import RevealOnScroll from '../RevealOnScroll';
 
 const Projects = () => {
@@ -55,6 +54,10 @@ const Projects = () => {
                         <div className="flex justify-between items-center">
                             <a href="https://github.com/winstonmalcolm-tech/justpost" className="text-blue-400 hover:text-blue-300 transition-colors my-4">
                             View Project →
+                            </a>
+
+                            <a href="https://justpost.infinityfreeapp.com/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                            Live →
                             </a>
                         </div>
                     </div>
