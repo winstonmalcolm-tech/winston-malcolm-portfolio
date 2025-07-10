@@ -1,4 +1,3 @@
-import React from 'react'
 import RevealOnScroll from "../RevealOnScroll";
 
 const About = () => {
@@ -40,13 +39,11 @@ const About = () => {
                 <div className='p-6 rounded-xl border-white/10 border hover:translate-y-1 transition-all'>
                     <h3 className='text-xl font-bold mb-4'>Education</h3>
 
-                    <ul className='list-disc list-inside text-gray-300 space-y-2'>
+                    <ul className='list-none list-inside text-gray-300 space-y-2'>
                         <li>
-                            <strong>BSc. Information Technology</strong> Northern Caribbean University (pursing)
+                            <strong>Mobile Application Development Diploma Lv. 3</strong><br /> Heart Trust NSTA
                         </li>
-                        <li>
-                            Relevant Coursework: Web design and Implementation, Internet Authoring, Software Engineering, System analysis and design, Programming II, Databases, Mobile Application Development, IT Project Management, Data Structure and Algorithm
-                        </li>
+                        
                     </ul>
                 </div>
 
